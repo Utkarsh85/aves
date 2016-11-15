@@ -1,6 +1,6 @@
 {
   "name": "aves",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "handlebars": "^4.0.6",
     "mkdirp": "^0.5.1",
