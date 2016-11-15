@@ -2,6 +2,7 @@
 var argv = require('yargs').argv;
 var fileExist= require('./fileExist');
 var lib= require('./lib/lib');
+var path= require('path');
 
 // console.log(argv);
 
@@ -14,7 +15,7 @@ else
 {
 	if(fileExist('./templates/config.js'))
 	{
-		var config= require('./templates/config.js');
+		var config= require(path.resolve('./templates/config.js'));
 
 		lib.process(config,argv);
 	}
